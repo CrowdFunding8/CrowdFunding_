@@ -20,13 +20,6 @@ const App = () => { // component name should start with capital letter
           <Route path="/about" element={<About/>}/>
 <<<<<<< HEAD
           <Route path="/register" element={<Register/>}/>
-=======
-          <Route path="/forgotPassword" element={<Forgot/>} />
-          <Route path="/Newideas" element={<NewIdea/>} />
-          <Route path="/ideas" element={<Idea/>}/>
-          <Route path="/register" element={<Register/>} />
-
->>>>>>> 50852b4193296600a32aabfea2d6e232a1c95c9c
      </Routes>
    //<> </>fragment used to when we need to use more than one tag
   )
