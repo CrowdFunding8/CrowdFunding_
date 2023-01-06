@@ -1,13 +1,13 @@
 .bg{
     background-color: #b130fb;
-    height:1100px;
+    height:1150px;
     margin-top:0;
     border:0;
     width:100%;
 }
 
 .form{
-    margin:50px;
+    /* margin:50px; */
     /* text-align: center; */
     padding:20px;
     border:2px solid #b130fb;
