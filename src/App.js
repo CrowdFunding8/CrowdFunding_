@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css'; 
+import { Routes, Route } from "react-router-dom"
+import Home from "./Components/Home/Home"
+import Login from "./Components/Login/Login"
+import Contact from "./Components/Contact/Contact"
+import About from "./Components/About/About"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World from gouri
-        </a>
-      </header>
-    </div>
-  );
+const App = () => { // component name should start with capital letter
+  return ( //to access component within an component we use component as an tag
+     <Routes>
+          <Route path="/"  element={<Home />} />
+          <Route path="/login"  element={<Login />} />
+          <Route path="/contact"  element={<Contact />} />
+          <Route path="/about" element={<About/>}/>
+     </Routes>
+   //<> </>fragment used to when we need to use more than one tag
+  )
 }
-
-export default App;
+export default App

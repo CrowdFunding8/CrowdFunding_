@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    /* text-align: center; */
+    /* justify-content: center; */
+    display:block;
+    padding: 90px 0 90px 0;
+    /* height: 50%; */
+    background-color: grey;
+}
+  
+.img{
+    display:block;
+    height: 1px;
+    width: 1px;
+    padding-top: 70px;
+    padding-right:700px;
+}
+
+.heading{
+  padding-left: 500px;
+}
