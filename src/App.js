@@ -4,7 +4,7 @@ import Login from "./components/Login/Login"
 import Contact from "./components/Contact/Contact"
 import About from "./components/About/About"
 import Register from "./components/register/register"
-
+ 
 const App = () => { // component name should start with capital letter
   return ( //to access component within an component we use component as an tag
      <Routes>
