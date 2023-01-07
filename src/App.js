@@ -8,8 +8,8 @@ import NewIdea from "./components/newIdea/newIdea"
 import Idea from "./components/ideas/idea"
 import Register from "./components/register/register"
  
-const App = () => { // component name should start with capital letter
-  return ( //to access component within an component we use component as an tag
+const App = () => { // component name should start with capital letter 
+  return ( //to access component within an component we use component as an tag 
      <Routes>
           <Route path="/"  element={<Home />} />
           <Route path="/login"  element={<Login />} />
@@ -21,7 +21,7 @@ const App = () => { // component name should start with capital letter
           <Route path="/register" element={<Register/>} />
 
      </Routes>
-   //<> </>fragment used to when we need to use more than one tag
+   //<> </>fragment used to when we need to use more than one tag 
   )
 }
 export default App
