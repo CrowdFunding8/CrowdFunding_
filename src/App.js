@@ -7,7 +7,7 @@ import Forgot from "./components/forgotPassword/forgot"
 import NewIdea from "./components/newIdea/newIdea"
 import Idea from "./components/ideas/idea"
 import Register from "./components/register/register"
-
+ 
 const App = () => { // component name should start with capital letter
   return ( //to access component within an component we use component as an tag
      <Routes>
