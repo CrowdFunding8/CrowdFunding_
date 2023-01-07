@@ -62,6 +62,7 @@ const NewIdea=()=>{
     return(
         <>
         <div className={style.bg}>
+            <br/><br/>
             <div className={style.form}>
                 <h1 className={style.heading}>Describe Idea</h1>
                 <h3><VscRequestChanges/>  Purpose of Raising Funds</h3>
@@ -80,8 +81,9 @@ const NewIdea=()=>{
                 <input type="file" placeholder="upload image" onChange={handlefile} value={file}/>
                 <br/><br/>
                 <button onClick={handleSubmit}><TiTick/>Submit</button>
-
+                
             </div>
+            <br/><br/><br/>
         </div>
             
         </>

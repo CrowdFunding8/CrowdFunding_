@@ -1,21 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NewIdea from './components/newIdea/newIdea';
-// import Idea from './components/ideas/idea';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Register from './components/register/register';
-// import Forgot from './components/forgotPassword/forgot';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <Register /> */}
-    {/* <Forgot /> */}
-    {/* <Idea/> */}
-    <NewIdea/>
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+   
   </React.StrictMode>
 );
 
