@@ -1,78 +1,82 @@
-.main{
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  padding: 90px 0 90px 0;
-  background-color: grey;
-}
-  
-.sub_main{
-  display: flex;
-  justify-content: center;
-  height: 550px;
-  width: 440px;
-  box-shadow: 9px 10px 9px 9px rgb(207, 207, 207);
-  padding-top: 30px;
-  border-radius: 50px;
-  background-color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,200&display=swap');
 
-.imgs{
-  padding-top: 20px;
-  justify-content: center;
-  display: flex;
-}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-.container_image{
-  background-color: rgb(223, 221, 221);
-  border-radius: 100px;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  display: flex;
-  height: 70px;
-  width: 70px;
+  height: 100vh;
+  width: 100vh;
 }
 
-.profile{
-  height: 105px;
-  width: 105px;
-  border-radius: 130px;
-}
-
-input{
+.MainContainer{
   
-  width: 10px;
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 80vh;
+width: 60vh;
+background:rgba(255,255,255,0.15);
+box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+backdrop-filter: blur(8.5px);
+border-radius: 10px;
+color: #ffffff;
+text-transform: uppercase;
+letter-spacing: 0.3rem;
+}
+.WelcomeText{
+  margin: 3rem 0 2rem 0;
+}
+.InputContainer:focus{
+  display: inline-block;
+  box-shadow: 0 0 0 0.2rem #b9abe099;
+  backdrop-filter: blur(12rem);
+  border-radius: 2rem; 
+}
+.InputContainer::placeholder{
+  color: #b9abe099;
+    font-weight: 100;
+    font-size: 1rem;
+}
+button{
+  background: linear-gradient(to right, #14163c 8%, #03217b 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 170px;
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   height: 50px;
-  /* to display rounded border */
-  border-radius: 60px;
-  box-shadow: inset 0px 0px 25px 0px #888;
+  width: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  border-radius: 2rem;
+  padding: 1rem;
   border: none;
   outline: none;
-  background-color: #fff;
-}
-  
-.email{
-  height: 48px;
-  width: 53px;
-  position: absolute;
-  padding: 14px 0 0 25px;
-} 
-.name{
-  padding-left: 70px;
-  font-size: 20px;
-}
-.second_input{
-  padding-top: 15px;
-} 
-button{
-  width: 170px;
-  height: 50px;
-  border-radius: 60px;
-  background-color: #b103fc;
-  color: white;
-  font-size: 25px;
-  border: none;
-}
-  
-.login_button{
-  padding: 30px;
+  color: #05020d;
+  font-size: 1rem;
+  font-weight: bold;
+  background:rgba(254, 233, 233, 0.15);
+
 }
